@@ -1,0 +1,56 @@
+.mydiv{
+	height: 620px;
+	width: 450px;
+	background-color: whitesmoke;
+	margin: auto;
+	border-radius: 10px;
+
+}
+.anotherdiv{
+	background-color: blue;
+	color: white;
+	text-align: center;
+	border-radius: 10px 10px 0px 0px;
+
+}
+input{
+	width: 240px;
+	margin-bottom: 10px;
+	padding:12px;
+	border: none;
+	border-radius: 5px;
+
+
+}
+label{
+	width: 120px;
+	padding-left: 38px;
+
+}
+.mydiv div{
+	display: inline-flex;
+
+}
+input[type="submit"]{
+	width: 300px;
+    margin: auto;
+    display: block;
+    background: #0b0a4b;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 7px;
+    padding: 12px;
+}
+
+input[type="reset"]{
+	width: 300px;
+    margin: auto;
+    display: block;
+    background: blue;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 7px;
+    padding: 12px;
+}
